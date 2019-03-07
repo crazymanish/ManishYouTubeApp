@@ -9,13 +9,18 @@
 import Foundation
 
 struct VideoModel: CodableModel {
-    let id: Int
+    let id: VideoIdModel
     let info: VideoInfoModel
     
     enum CodingKeys: String, CodingKey {
         case info = "snippet"
         case id
     }
+}
+
+struct VideoIdModel: CodableModel {
+    let videoId: String
+    let kind: String
 }
 
 struct VideoInfoModel: CodableModel {
@@ -25,7 +30,6 @@ struct VideoInfoModel: CodableModel {
 }
 
 struct VideoThumbnailsModel: CodableModel {
-    let standard: ThumbnailModel
     let medium: ThumbnailModel
     let high: ThumbnailModel
 }

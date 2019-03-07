@@ -8,9 +8,31 @@
 
 import Foundation
 
+/**
+ `Constants` is the contant value used by YouTube project. It encompasses a few different types of constants,
+ each with their own associated value.
+ */
+struct Constants {
+    /**
+     `Constants` youTubeApiKey:   Returned YouTube Api Key, which is use to fetch Youtube Videos.
+     */
+    static let youTubeApiKey =  "AIzaSyBPB3MJriCsicB1MhDWCmjXBFMHf3dkl1w"
+    
+    /**
+     `Constants` maxResultCount:   Returned max result count, which will use, while fetch videos from Youtube search Api.
+     */
+    static let maxResultCount = 10
+    
+    /**
+     `Constants` searchingWord:  which will use, while fetch videos from Youtube search Api. (Hard-Coded Only for demo.)
+     */
+    static let searchingWord = "sachin tendulkar"
+}
+
+
 // Web-service Api path(s).
 struct ApiPath {
-    static let getUserProfiles = "users/moderators?site=stackoverflow&filter=!-*jbN0CeyJHb&sort=reputation&order=desc&page=%d"
+    static let fetchVideos = "search?part=snippet&regionCode=IN&relevanceLanguage=en&type=video&order=relevance&maxResults=%d&key=%@&q=%@"
     //more to go...
 }
 

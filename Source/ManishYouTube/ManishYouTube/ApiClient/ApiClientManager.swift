@@ -23,10 +23,10 @@ open class ApiClientManager {
     /**
      BaseUrl of ApiClientManager.
      
-     @note default value is `http://api.stackexchange.com/2.2/`.
+     @note default value is `https://www.googleapis.com/youtube/v3/`.
 
      */
-    open var baseUrl: String = "http://api.stackexchange.com/2.2/"
+    open var baseUrl: String = "https://www.googleapis.com/youtube/v3/"
     
     /**
      Whether to start requests immediately after being constructed.

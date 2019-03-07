@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+struct FetchVideoListApiRequest: ApiRequest {
+    var path: String
+    
+    var body: Dictionary<String, Any>?
+    
+    var query: Dictionary<String, String>?
+    
+    var headers: Dictionary<String, String>?
+    
+    init() {
+        self.path = ApiPath.fetchVideos
+    }
+}
