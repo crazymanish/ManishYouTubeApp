@@ -13,6 +13,8 @@
 		84FD0FB02231A10200EDA91E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FD0FAF2231A10200EDA91E /* Assets.xcassets */; };
 		84FD0FB32231A10200EDA91E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FD0FB12231A10200EDA91E /* LaunchScreen.storyboard */; };
 		84FD0FBE2231A10200EDA91E /* ManishYouTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FBD2231A10200EDA91E /* ManishYouTubeTests.swift */; };
+		A6A4B5D248F921B39990403B /* Pods_ManishYouTube_ManishYouTubeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D67A51DFBB8C91630C3502 /* Pods_ManishYouTube_ManishYouTubeTests.framework */; };
+		E3DB19F81CC22289778A30CB /* Pods_ManishYouTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD3A050CEBEAA879F04F0C3 /* Pods_ManishYouTube.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00D67A51DFBB8C91630C3502 /* Pods_ManishYouTube_ManishYouTubeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManishYouTube_ManishYouTubeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1711E1390B6E35B7C1CC3FA7 /* Pods-ManishYouTube-ManishYouTubeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManishYouTube-ManishYouTubeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManishYouTube-ManishYouTubeTests/Pods-ManishYouTube-ManishYouTubeTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E6CAAED247376947F74CE4B /* Pods-ManishYouTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManishYouTube.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManishYouTube/Pods-ManishYouTube.release.xcconfig"; sourceTree = "<group>"; };
+		229146F53CCE656DD21DD165 /* Pods-ManishYouTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManishYouTube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManishYouTube/Pods-ManishYouTube.debug.xcconfig"; sourceTree = "<group>"; };
 		84FD0FA52231A10100EDA91E /* ManishYouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManishYouTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD0FA82231A10100EDA91E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FD0FAA2231A10100EDA91E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		84FD0FB92231A10200EDA91E /* ManishYouTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManishYouTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD0FBD2231A10200EDA91E /* ManishYouTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManishYouTubeTests.swift; sourceTree = "<group>"; };
 		84FD0FBF2231A10200EDA91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FEE8A4185C6BBC671248C81 /* Pods-ManishYouTube-ManishYouTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManishYouTube-ManishYouTubeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManishYouTube-ManishYouTubeTests/Pods-ManishYouTube-ManishYouTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAD3A050CEBEAA879F04F0C3 /* Pods_ManishYouTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManishYouTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3DB19F81CC22289778A30CB /* Pods_ManishYouTube.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A4B5D248F921B39990403B /* Pods_ManishYouTube_ManishYouTubeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				84FD0FA72231A10100EDA91E /* ManishYouTube */,
 				84FD0FBC2231A10200EDA91E /* ManishYouTubeTests */,
 				84FD0FA62231A10100EDA91E /* Products */,
+				9A7A0FC4E60211B378FA0B3F /* Pods */,
+				A8142936197BAFFD0FE6EDB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = ManishYouTubeTests;
 			sourceTree = "<group>";
 		};
+		9A7A0FC4E60211B378FA0B3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				229146F53CCE656DD21DD165 /* Pods-ManishYouTube.debug.xcconfig */,
+				1E6CAAED247376947F74CE4B /* Pods-ManishYouTube.release.xcconfig */,
+				8FEE8A4185C6BBC671248C81 /* Pods-ManishYouTube-ManishYouTubeTests.debug.xcconfig */,
+				1711E1390B6E35B7C1CC3FA7 /* Pods-ManishYouTube-ManishYouTubeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8142936197BAFFD0FE6EDB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAD3A050CEBEAA879F04F0C3 /* Pods_ManishYouTube.framework */,
+				00D67A51DFBB8C91630C3502 /* Pods_ManishYouTube_ManishYouTubeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84FD0FC22231A10200EDA91E /* Build configuration list for PBXNativeTarget "ManishYouTube" */;
 			buildPhases = (
+				5731043AE305A2C484313AAD /* [CP] Check Pods Manifest.lock */,
 				84FD0FA12231A10100EDA91E /* Sources */,
 				84FD0FA22231A10100EDA91E /* Frameworks */,
 				84FD0FA32231A10100EDA91E /* Resources */,
+				445C28202A7FDC13BE60B704 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84FD0FC52231A10200EDA91E /* Build configuration list for PBXNativeTarget "ManishYouTubeTests" */;
 			buildPhases = (
+				6A0AABD1EE7280C16ABA7FC4 /* [CP] Check Pods Manifest.lock */,
 				84FD0FB52231A10200EDA91E /* Sources */,
 				84FD0FB62231A10200EDA91E /* Frameworks */,
 				84FD0FB72231A10200EDA91E /* Resources */,
+				D57B5796302328A163968C92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +227,101 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		445C28202A7FDC13BE60B704 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ManishYouTube/Pods-ManishYouTube-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ManishYouTube/Pods-ManishYouTube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5731043AE305A2C484313AAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManishYouTube-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0AABD1EE7280C16ABA7FC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManishYouTube-ManishYouTubeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57B5796302328A163968C92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ManishYouTube-ManishYouTubeTests/Pods-ManishYouTube-ManishYouTubeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ManishYouTube-ManishYouTubeTests/Pods-ManishYouTube-ManishYouTubeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84FD0FA12231A10100EDA91E /* Sources */ = {
@@ -291,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -358,10 +489,12 @@
 		};
 		84FD0FC32231A10200EDA91E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229146F53CCE656DD21DD165 /* Pods-ManishYouTube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ManishYouTube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,10 +508,12 @@
 		};
 		84FD0FC42231A10200EDA91E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6CAAED247376947F74CE4B /* Pods-ManishYouTube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ManishYouTube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,6 +527,7 @@
 		};
 		84FD0FC62231A10200EDA91E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FEE8A4185C6BBC671248C81 /* Pods-ManishYouTube-ManishYouTubeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +548,7 @@
 		};
 		84FD0FC72231A10200EDA91E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1711E1390B6E35B7C1CC3FA7 /* Pods-ManishYouTube-ManishYouTubeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

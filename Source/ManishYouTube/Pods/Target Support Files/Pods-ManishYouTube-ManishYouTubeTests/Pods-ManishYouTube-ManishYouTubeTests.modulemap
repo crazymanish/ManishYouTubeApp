@@ -1,0 +1,6 @@
+framework module Pods_ManishYouTube_ManishYouTubeTests {
+  umbrella header "Pods-ManishYouTube-ManishYouTubeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
