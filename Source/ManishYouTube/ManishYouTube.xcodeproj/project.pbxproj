@@ -13,6 +13,18 @@
 		84FD0FB02231A10200EDA91E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FD0FAF2231A10200EDA91E /* Assets.xcassets */; };
 		84FD0FB32231A10200EDA91E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FD0FB12231A10200EDA91E /* LaunchScreen.storyboard */; };
 		84FD0FBE2231A10200EDA91E /* ManishYouTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FBD2231A10200EDA91E /* ManishYouTubeTests.swift */; };
+		84FD0FD32231A2A400EDA91E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FCA2231A2A300EDA91E /* Constants.swift */; };
+		84FD0FD42231A2A400EDA91E /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FCC2231A2A300EDA91E /* CustomImageView.swift */; };
+		84FD0FD52231A2A400EDA91E /* CodableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FCE2231A2A300EDA91E /* CodableModel.swift */; };
+		84FD0FD62231A2A400EDA91E /* ApiClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FD02231A2A400EDA91E /* ApiClientManager.swift */; };
+		84FD0FD72231A2A400EDA91E /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FD12231A2A400EDA91E /* ApiResponse.swift */; };
+		84FD0FD82231A2A400EDA91E /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FD22231A2A400EDA91E /* ApiRequest.swift */; };
+		84FD0FDF2231A3B000EDA91E /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FDE2231A3B000EDA91E /* VideoListViewController.swift */; };
+		84FD0FE12231A3BF00EDA91E /* VideoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FE02231A3BF00EDA91E /* VideoListViewModel.swift */; };
+		84FD0FE32231A3E700EDA91E /* VideoListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FE22231A3E700EDA91E /* VideoListResponseModel.swift */; };
+		84FD0FE52231A46900EDA91E /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FE42231A46900EDA91E /* VideoModel.swift */; };
+		84FD0FE72231A52A00EDA91E /* ApiClientManager+VideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FE62231A52A00EDA91E /* ApiClientManager+VideoList.swift */; };
+		84FD0FE92231A55F00EDA91E /* FetchVideoListApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FD0FE82231A55F00EDA91E /* FetchVideoListApiRequest.swift */; };
 		A6A4B5D248F921B39990403B /* Pods_ManishYouTube_ManishYouTubeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D67A51DFBB8C91630C3502 /* Pods_ManishYouTube_ManishYouTubeTests.framework */; };
 		E3DB19F81CC22289778A30CB /* Pods_ManishYouTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD3A050CEBEAA879F04F0C3 /* Pods_ManishYouTube.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +54,18 @@
 		84FD0FB92231A10200EDA91E /* ManishYouTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManishYouTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD0FBD2231A10200EDA91E /* ManishYouTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManishYouTubeTests.swift; sourceTree = "<group>"; };
 		84FD0FBF2231A10200EDA91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FD0FCA2231A2A300EDA91E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84FD0FCC2231A2A300EDA91E /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		84FD0FCE2231A2A300EDA91E /* CodableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableModel.swift; sourceTree = "<group>"; };
+		84FD0FD02231A2A400EDA91E /* ApiClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClientManager.swift; sourceTree = "<group>"; };
+		84FD0FD12231A2A400EDA91E /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		84FD0FD22231A2A400EDA91E /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		84FD0FDE2231A3B000EDA91E /* VideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
+		84FD0FE02231A3BF00EDA91E /* VideoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewModel.swift; sourceTree = "<group>"; };
+		84FD0FE22231A3E700EDA91E /* VideoListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListResponseModel.swift; sourceTree = "<group>"; };
+		84FD0FE42231A46900EDA91E /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		84FD0FE62231A52A00EDA91E /* ApiClientManager+VideoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiClientManager+VideoList.swift"; sourceTree = "<group>"; };
+		84FD0FE82231A55F00EDA91E /* FetchVideoListApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchVideoListApiRequest.swift; sourceTree = "<group>"; };
 		8FEE8A4185C6BBC671248C81 /* Pods-ManishYouTube-ManishYouTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManishYouTube-ManishYouTubeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManishYouTube-ManishYouTubeTests/Pods-ManishYouTube-ManishYouTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EAD3A050CEBEAA879F04F0C3 /* Pods_ManishYouTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManishYouTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,6 +113,10 @@
 		84FD0FA72231A10100EDA91E /* ManishYouTube */ = {
 			isa = PBXGroup;
 			children = (
+				84FD0FCF2231A2A400EDA91E /* ApiClient */,
+				84FD0FCD2231A2A300EDA91E /* CodableModel */,
+				84FD0FC82231A2A300EDA91E /* Helper */,
+				84FD0FD92231A2DA00EDA91E /* VideoList */,
 				84FD0FA82231A10100EDA91E /* AppDelegate.swift */,
 				84FD0FAA2231A10100EDA91E /* ViewController.swift */,
 				84FD0FAC2231A10100EDA91E /* Main.storyboard */,
@@ -106,6 +134,94 @@
 				84FD0FBF2231A10200EDA91E /* Info.plist */,
 			);
 			path = ManishYouTubeTests;
+			sourceTree = "<group>";
+		};
+		84FD0FC82231A2A300EDA91E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84FD0FC92231A2A300EDA91E /* Constant */,
+				84FD0FCB2231A2A300EDA91E /* CustomImageView */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		84FD0FC92231A2A300EDA91E /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				84FD0FCA2231A2A300EDA91E /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		84FD0FCB2231A2A300EDA91E /* CustomImageView */ = {
+			isa = PBXGroup;
+			children = (
+				84FD0FCC2231A2A300EDA91E /* CustomImageView.swift */,
+			);
+			path = CustomImageView;
+			sourceTree = "<group>";
+		};
+		84FD0FCD2231A2A300EDA91E /* CodableModel */ = {
+			isa = PBXGroup;
+			children = (
+				84FD0FCE2231A2A300EDA91E /* CodableModel.swift */,
+			);
+			path = CodableModel;
+			sourceTree = "<group>";
+		};
+		84FD0FCF2231A2A400EDA91E /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				84FD0FD02231A2A400EDA91E /* ApiClientManager.swift */,
+				84FD0FD12231A2A400EDA91E /* ApiResponse.swift */,
+				84FD0FD22231A2A400EDA91E /* ApiRequest.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		84FD0FD92231A2DA00EDA91E /* VideoList */ = {
+			isa = PBXGroup;
+			children = (
+				84FD0FDA2231A2EC00EDA91E /* Controller */,
+				84FD0FDD2231A39100EDA91E /* ViewModel */,
+				84FD0FDC2231A38800EDA91E /* Model */,
+				84FD0FDB2231A2F900EDA91E /* Api */,
+			);
+			path = VideoList;
+			sourceTree = "<group>";
+		};
+		84FD0FDA2231A2EC00EDA91E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84FD0FDE2231A3B000EDA91E /* VideoListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84FD0FDB2231A2F900EDA91E /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				84FD0FE62231A52A00EDA91E /* ApiClientManager+VideoList.swift */,
+				84FD0FE82231A55F00EDA91E /* FetchVideoListApiRequest.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		84FD0FDC2231A38800EDA91E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84FD0FE22231A3E700EDA91E /* VideoListResponseModel.swift */,
+				84FD0FE42231A46900EDA91E /* VideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84FD0FDD2231A39100EDA91E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84FD0FE02231A3BF00EDA91E /* VideoListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		9A7A0FC4E60211B378FA0B3F /* Pods */ = {
@@ -328,8 +444,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FD0FDF2231A3B000EDA91E /* VideoListViewController.swift in Sources */,
+				84FD0FE92231A55F00EDA91E /* FetchVideoListApiRequest.swift in Sources */,
 				84FD0FAB2231A10100EDA91E /* ViewController.swift in Sources */,
+				84FD0FD52231A2A400EDA91E /* CodableModel.swift in Sources */,
+				84FD0FE32231A3E700EDA91E /* VideoListResponseModel.swift in Sources */,
+				84FD0FD42231A2A400EDA91E /* CustomImageView.swift in Sources */,
+				84FD0FD72231A2A400EDA91E /* ApiResponse.swift in Sources */,
 				84FD0FA92231A10100EDA91E /* AppDelegate.swift in Sources */,
+				84FD0FE52231A46900EDA91E /* VideoModel.swift in Sources */,
+				84FD0FE72231A52A00EDA91E /* ApiClientManager+VideoList.swift in Sources */,
+				84FD0FD32231A2A400EDA91E /* Constants.swift in Sources */,
+				84FD0FD82231A2A400EDA91E /* ApiRequest.swift in Sources */,
+				84FD0FE12231A3BF00EDA91E /* VideoListViewModel.swift in Sources */,
+				84FD0FD62231A2A400EDA91E /* ApiClientManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
